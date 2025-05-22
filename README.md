@@ -1,7 +1,7 @@
 ## Elasticsearch （Non-Pre-Auth）
 
 - **Author:** [quicksandzn](https://github.com/quicksandznzn)
-- **Github:** https://github.com/quicksandznzn/dify-plugin-elasticsearch/tree/non-pre-auth
+- **Github:** https://github.com/quicksandznzn/dify-plugin-elasticsearch-v2
 - **Version:** 0.0.1
 - **Type:** tool
 
