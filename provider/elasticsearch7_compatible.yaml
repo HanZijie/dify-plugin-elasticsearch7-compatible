@@ -1,0 +1,18 @@
+identity:
+  author: hanzj
+  name: elasticsearch7_compatible
+  label:
+    en_US: elasticsearch7_compatible
+    zh_Hans: elasticsearch7_compatible
+    pt_BR: elasticsearch7_compatible
+  description:
+    en_US: this is an elasticsearch plugin compatible with 7.17
+    zh_Hans: this is an elasticsearch plugin compatible with 7.17
+    pt_BR: this is an elasticsearch plugin compatible with 7.17
+  icon: icon.svg
+tools:
+  - tools/query.yaml
+  - tools/create.yaml
+extra:
+  python:
+    source: provider/elasticsearch7_compatible.py
