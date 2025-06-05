@@ -1,6 +1,6 @@
 identity:
   name: search
-  author: quicksandzn
+  author: hanzj
   label:
     en_US: Elasticsearch Query
     zh_Hans: Elasticsearch Query

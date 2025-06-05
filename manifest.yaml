@@ -1,7 +1,7 @@
 version: 0.0.1
 type: plugin
 author: quicksandzn
-name: elasticsearch_v2
+name: elasticsearch7_compatible
 label:
   en_US: Elasticsearch (Non-Pre-Auth)
   ja_JP: Elasticsearch (Non-Pre-Auth)

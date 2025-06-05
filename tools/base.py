@@ -11,15 +11,14 @@ class ElasticsearchBaseTool:
         auth_method = credentials.get("auth_method")
         verify_certs = credentials.get("verify_certs", False)
         if auth_method == "no_auth":
-            return Elasticsearch(endpoint, verify_certs=verify_certs)
+            return Elasticsearch(endpoint, verify_certs=verify_certs,request_timeout=30)
         elif auth_method == "basic":
             username = credentials.get("username")
             password = credentials.get("password")
             return Elasticsearch(
-                endpoint, basic_auth=(username, password), verify_certs=verify_certs
-            )
+                endpoint, basic_auth=(username, password), verify_certs=verify_certs,request_timeout=30)
         elif auth_method == "api_key":
             api_key = credentials.get("api_key")
-            return Elasticsearch(endpoint, api_key=api_key, verify_certs=verify_certs)
+            return Elasticsearch(endpoint, api_key=api_key, verify_certs=verify_certs,request_timeout=30)
         else:
             raise ValueError("Invalid auth_method")
